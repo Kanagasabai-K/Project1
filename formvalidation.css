@@ -1,0 +1,33 @@
+
+body{
+    background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(formbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color:rgb(243, 145, 16,02)
+}
+#form button{
+    background-color: rgb(243, 145, 16,02);
+    color: white;
+    border: 1px solid rgb(243, 145, 16,02);
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+
+}
+.input-group{
+padding-bottom:2%;
+}
+.input-group input{align-items: center;}
